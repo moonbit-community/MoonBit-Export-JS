@@ -5,3 +5,9 @@
 ```
 moon build --target wasm-gc
 ```
+
+## Test 
+
+```
+moon test -u // update snapshots
+```
