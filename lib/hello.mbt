@@ -8,5 +8,5 @@ pub fn fib(n : Int) -> Int {
 }
 
 test "fib" {
-  inspect([1, 2, 3, 4, 5].map(fib), ~content="[1, 2, 3, 5, 8]")?
+  inspect!([1, 2, 3, 4, 5].map(fib), content="[1, 2, 3, 5, 8]")
 }
