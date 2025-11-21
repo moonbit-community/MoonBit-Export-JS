@@ -2,6 +2,9 @@
     "link":{
         "wasm-gc": {
             "exports": ["fib"]
+        },
+        "js": {
+            "exports": ["fib","unexists"]
         }
     }
 }
